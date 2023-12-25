@@ -1,16 +1,16 @@
 package com.ucu.edu.task1;
 
 public class Tray { // One chain
-    private Tray next;
     public int denomination;
+    private Tray next;
 
     public Tray(int denomination) {
         this.denomination = denomination;
     }
 
-    public Tray setNext(Tray next) {
-        this.next = next;
-        return next;
+    public Tray setNext(Tray nextNew) {
+        this.next = nextNew;
+        return nextNew;
     }
 
     public void process(int amount) {
