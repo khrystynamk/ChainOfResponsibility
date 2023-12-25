@@ -1,4 +1,4 @@
-package com.ucu.edu.Task2;
+package com.ucu.edu.task2;
 
 import java.util.HashMap;
 import java.util.Map;

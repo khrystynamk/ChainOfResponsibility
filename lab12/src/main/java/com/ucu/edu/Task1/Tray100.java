@@ -1,4 +1,4 @@
-package com.ucu.edu.Task1;
+package com.ucu.edu.task1;
 
 public class Tray100 extends Tray {
     public Tray100() {

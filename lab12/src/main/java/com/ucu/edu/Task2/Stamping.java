@@ -1,4 +1,4 @@
-package com.ucu.edu.Task2;
+package com.ucu.edu.task2;
 
 public class Stamping {
     // Stamp the tasks within the group with the groupId

@@ -1,4 +1,4 @@
-package com.ucu.edu.Task1;
+package com.ucu.edu.task1;
 
 public class Tray { // One chain
     private Tray next;
@@ -19,6 +19,7 @@ public class Tray { // One chain
         } else if (amount % denomination > 0) {
             throw new IllegalArgumentException();
         }
-        System.out.format("Please take %d out of the denomination %d\n", amount / denomination, denomination);
+        System.out.format("Please take %d out of the denomination %d\n",
+                 amount / denomination, denomination);
     }
 }
