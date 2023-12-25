@@ -23,4 +23,6 @@ jobs:
       run: mvn -B package --file ./lab12/pom.xml
 
     - name: Test with Maven
-      run: mvn test
+      run: |
+        cd lab12
+        mvn test
